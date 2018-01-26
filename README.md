@@ -10,6 +10,7 @@ We do appreciate any feedback to the APIs, please use the issues on this Github 
 * AndroidSandbox.apk - Fabric Native Android app which is connected to Sandbox environment
 * FabricNotificationSDK.pdf - Documentation for Fabric javascript SDK to get notifications
 * Hackathon Austin 2018.pptx - Slide deck with general information, useful links and contacts to Dominik and Iris
+* PostmanCollection.json - Postman collection with samples of the requests
 * PropertyDetails.pdf - details regarding to currencies, taxes and property data
 
 ## Documentation URLs
