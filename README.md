@@ -30,5 +30,5 @@ password: 799RfDv#pO6d
 * Authentication: europewest-api-sandbox.snapshot.technology/oauth/token
 * Base URL for Identity service / PMS data / Non-PMS data: europewest-api-sandbox.snapshot.technology/v1/
 * Fabric API: https://fabric-sandbox.snapshot.travel/api
-* Fabric UI: https://fabric-sandbox.snapshot.travel/
+* Fabric UI: https://fabric-sandbox.snapshot.travel/. There is an issue with HomeAway guest wifi to connect to Fabric UI. We have a workaround, please use access point Alcatel LINKZONE 7421, password: 02517421
 
