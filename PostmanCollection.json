@@ -217,7 +217,7 @@
 					},
 					"response": [
 						{
-							"id": "e9b3d09c-b7ae-40fd-9e5e-ea1cfc59424c",
+							"id": "0507edc0-8fb7-4599-b17e-9c6cfaef3311",
 							"name": "_1_3_get otb pace in market segments for property copy",
 							"originalRequest": {
 								"url": {
@@ -461,7 +461,7 @@
 					},
 					"response": [
 						{
-							"id": "cacabb55-848d-4c66-9eda-c881273fcfd9",
+							"id": "0b21c6c9-bfce-4e19-9c2b-bc22167214f2",
 							"name": "_1_3_get otb pace in market segments for property copy",
 							"originalRequest": {
 								"url": {
@@ -705,7 +705,7 @@
 					},
 					"response": [
 						{
-							"id": "8515c28e-d004-4c89-8a90-290afa19cfd5",
+							"id": "83509181-55a3-4044-8bf5-bc799150e951",
 							"name": "_1_3_get otb pace in market segments for property copy",
 							"originalRequest": {
 								"url": {
@@ -949,7 +949,7 @@
 					},
 					"response": [
 						{
-							"id": "b0e7c715-94b8-4d15-be7b-d4161c3c33a2",
+							"id": "3db66fc3-7408-4e21-a121-a27328ea5dd0",
 							"name": "_1_3_get otb pace in market segments for property copy",
 							"originalRequest": {
 								"url": {
@@ -1193,7 +1193,7 @@
 					},
 					"response": [
 						{
-							"id": "6da70652-c6d5-48d2-98ba-0cbe4bf0d72e",
+							"id": "fb7e875e-ced7-40a3-8357-3a8580e42dc2",
 							"name": "_1_3_get otb pace in market segments for property copy",
 							"originalRequest": {
 								"url": {
@@ -1437,7 +1437,251 @@
 					},
 					"response": [
 						{
-							"id": "d98bec8d-e68b-413b-9cc8-5e967e33ffb4",
+							"id": "dd24d899-bb37-49da-9f07-a1e464a9d04a",
+							"name": "_1_3_get otb pace in market segments for property copy",
+							"originalRequest": {
+								"url": {
+									"raw": "{{scheme}}://{{url}}/v1/dwh/otb_pace/properties/02c53903-bf36-4d4f-b955-4181b8880269/base_dimension/daily/definitive?start=2017-10-01&end=2017-10-31&as_of_date_start=2017-10-17&as_of_date_end=2017-10-18",
+									"protocol": "{{scheme}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"v1",
+										"dwh",
+										"otb_pace",
+										"properties",
+										"02c53903-bf36-4d4f-b955-4181b8880269",
+										"base_dimension",
+										"daily",
+										"definitive"
+									],
+									"query": [
+										{
+											"key": "start",
+											"value": "2017-10-01",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "end",
+											"value": "2017-10-31",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "as_of_date_start",
+											"value": "2017-10-17",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "as_of_date_end",
+											"value": "2017-10-18",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"description": ""
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "text",
+							"header": [
+								{
+									"name": "access-control-allow-credentials",
+									"key": "access-control-allow-credentials",
+									"value": "true",
+									"description": "Indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials."
+								},
+								{
+									"name": "access-control-expose-headers",
+									"key": "access-control-expose-headers",
+									"value": "etag, location",
+									"description": "Lets a server whitelist headers that browsers are allowed to access."
+								},
+								{
+									"name": "cache-control",
+									"key": "cache-control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "connection",
+									"key": "connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "content-encoding",
+									"key": "content-encoding",
+									"value": "gzip",
+									"description": "The type of encoding used on the data."
+								},
+								{
+									"name": "content-type",
+									"key": "content-type",
+									"value": "application/json;charset=UTF-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "date",
+									"key": "date",
+									"value": "Thu, 19 Oct 2017 07:16:53 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "expires",
+									"key": "expires",
+									"value": "0",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "pragma",
+									"key": "pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "server",
+									"key": "server",
+									"value": "nginx/1.11.10",
+									"description": "A name for the server"
+								},
+								{
+									"name": "strict-transport-security",
+									"key": "strict-transport-security",
+									"value": "max-age=15724800; includeSubDomains; preload",
+									"description": "A HSTS Policy informing the HTTP client how long to cache the HTTPS only policy and whether this applies to subdomains."
+								},
+								{
+									"name": "transfer-encoding",
+									"key": "transfer-encoding",
+									"value": "chunked",
+									"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+								},
+								{
+									"name": "vary",
+									"key": "vary",
+									"value": "Accept-Encoding, Origin, X-Origin",
+									"description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+								},
+								{
+									"name": "x-application-context",
+									"key": "x-application-context",
+									"value": "dwh:dwh-output:prod:security,prod,itbdemo:8080",
+									"description": "Custom header"
+								},
+								{
+									"name": "x-cid",
+									"key": "x-cid",
+									"value": "d8c0b05e-2ac3-4c3f-9b76-f581cd25010c",
+									"description": "Custom header"
+								},
+								{
+									"name": "x-content-type-options",
+									"key": "x-content-type-options",
+									"value": "nosniff",
+									"description": "The only defined value, \"nosniff\", prevents Internet Explorer from MIME-sniffing a response away from the declared content-type"
+								},
+								{
+									"name": "x-frame-options",
+									"key": "x-frame-options",
+									"value": "DENY",
+									"description": "Clickjacking protection: \"deny\" - no rendering within a frame, \"sameorigin\" - no rendering if origin mismatch"
+								},
+								{
+									"name": "x-xss-protection",
+									"key": "x-xss-protection",
+									"value": "1; mode=block",
+									"description": "Cross-site scripting (XSS) filter"
+								}
+							],
+							"cookie": [],
+							"responseTime": 4608,
+							"body": "[{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-01\",\"end\":\"2017-10-01\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":51,\"occ_def\":0.6375,\"acc_revenue_excl_tax_def\":10654.09,\"acc_revenue_incl_tax_def\":12784.91,\"adr_excl_tax_def\":208.90,\"adr_incl_tax_def\":250.68,\"revpar_excl_tax_def\":133.18,\"revpar_incl_tax_def\":159.81}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-02\",\"end\":\"2017-10-02\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":80,\"occ_def\":1.0000,\"acc_revenue_excl_tax_def\":23031.07,\"acc_revenue_incl_tax_def\":27637.28,\"adr_excl_tax_def\":287.89,\"adr_incl_tax_def\":345.47,\"revpar_excl_tax_def\":287.89,\"revpar_incl_tax_def\":345.47}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-03\",\"end\":\"2017-10-03\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":80,\"occ_def\":1.0000,\"acc_revenue_excl_tax_def\":24574.10,\"acc_revenue_incl_tax_def\":29488.92,\"adr_excl_tax_def\":307.18,\"adr_incl_tax_def\":368.61,\"revpar_excl_tax_def\":307.18,\"revpar_incl_tax_def\":368.61}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-04\",\"end\":\"2017-10-04\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":80,\"occ_def\":1.0000,\"acc_revenue_excl_tax_def\":23854.23,\"acc_revenue_incl_tax_def\":28625.08,\"adr_excl_tax_def\":298.18,\"adr_incl_tax_def\":357.81,\"revpar_excl_tax_def\":298.18,\"revpar_incl_tax_def\":357.81}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-05\",\"end\":\"2017-10-05\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":74,\"occ_def\":0.9250,\"acc_revenue_excl_tax_def\":20052.22,\"acc_revenue_incl_tax_def\":24062.66,\"adr_excl_tax_def\":270.98,\"adr_incl_tax_def\":325.17,\"revpar_excl_tax_def\":250.65,\"revpar_incl_tax_def\":300.78}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-06\",\"end\":\"2017-10-06\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":71,\"occ_def\":0.8875,\"acc_revenue_excl_tax_def\":12418.09,\"acc_revenue_incl_tax_def\":14901.71,\"adr_excl_tax_def\":174.90,\"adr_incl_tax_def\":209.88,\"revpar_excl_tax_def\":155.23,\"revpar_incl_tax_def\":186.27}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-07\",\"end\":\"2017-10-07\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":73,\"occ_def\":0.9125,\"acc_revenue_excl_tax_def\":12972.41,\"acc_revenue_incl_tax_def\":15566.89,\"adr_excl_tax_def\":177.70,\"adr_incl_tax_def\":213.25,\"revpar_excl_tax_def\":162.16,\"revpar_incl_tax_def\":194.59}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-08\",\"end\":\"2017-10-08\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":33,\"occ_def\":0.4125,\"acc_revenue_excl_tax_def\":7261.92,\"acc_revenue_incl_tax_def\":8714.30,\"adr_excl_tax_def\":220.06,\"adr_incl_tax_def\":264.07,\"revpar_excl_tax_def\":90.77,\"revpar_incl_tax_def\":108.93}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-09\",\"end\":\"2017-10-09\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":68,\"occ_def\":0.8500,\"acc_revenue_excl_tax_def\":19481.67,\"acc_revenue_incl_tax_def\":23378.00,\"adr_excl_tax_def\":286.50,\"adr_incl_tax_def\":343.79,\"revpar_excl_tax_def\":243.52,\"revpar_incl_tax_def\":292.23}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-10\",\"end\":\"2017-10-10\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":73,\"occ_def\":0.9125,\"acc_revenue_excl_tax_def\":22337.10,\"acc_revenue_incl_tax_def\":26804.52,\"adr_excl_tax_def\":305.99,\"adr_incl_tax_def\":367.19,\"revpar_excl_tax_def\":279.21,\"revpar_incl_tax_def\":335.06}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-11\",\"end\":\"2017-10-11\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":79,\"occ_def\":0.9875,\"acc_revenue_excl_tax_def\":22817.52,\"acc_revenue_incl_tax_def\":27381.02,\"adr_excl_tax_def\":288.83,\"adr_incl_tax_def\":346.60,\"revpar_excl_tax_def\":285.22,\"revpar_incl_tax_def\":342.26}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-12\",\"end\":\"2017-10-12\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":63,\"occ_def\":0.7875,\"acc_revenue_excl_tax_def\":16209.23,\"acc_revenue_incl_tax_def\":19451.08,\"adr_excl_tax_def\":257.29,\"adr_incl_tax_def\":308.75,\"revpar_excl_tax_def\":202.62,\"revpar_incl_tax_def\":243.14}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-13\",\"end\":\"2017-10-13\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":55,\"occ_def\":0.6875,\"acc_revenue_excl_tax_def\":8842.84,\"acc_revenue_incl_tax_def\":10611.41,\"adr_excl_tax_def\":160.78,\"adr_incl_tax_def\":192.93,\"revpar_excl_tax_def\":110.54,\"revpar_incl_tax_def\":132.64}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-14\",\"end\":\"2017-10-14\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":72,\"occ_def\":0.9000,\"acc_revenue_excl_tax_def\":12256.32,\"acc_revenue_incl_tax_def\":14707.58,\"adr_excl_tax_def\":170.23,\"adr_incl_tax_def\":204.27,\"revpar_excl_tax_def\":153.20,\"revpar_incl_tax_def\":183.84}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-15\",\"end\":\"2017-10-15\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":51,\"occ_def\":0.6375,\"acc_revenue_excl_tax_def\":9906.31,\"acc_revenue_incl_tax_def\":11887.57,\"adr_excl_tax_def\":194.24,\"adr_incl_tax_def\":233.09,\"revpar_excl_tax_def\":123.83,\"revpar_incl_tax_def\":148.59}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-16\",\"end\":\"2017-10-16\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":73,\"occ_def\":0.9125,\"acc_revenue_excl_tax_def\":18849.09,\"acc_revenue_incl_tax_def\":22618.91,\"adr_excl_tax_def\":258.21,\"adr_incl_tax_def\":309.85,\"revpar_excl_tax_def\":235.61,\"revpar_incl_tax_def\":282.74}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-17\",\"end\":\"2017-10-17\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":76,\"occ_def\":0.9500,\"acc_revenue_excl_tax_def\":22926.68,\"acc_revenue_incl_tax_def\":27512.02,\"adr_excl_tax_def\":301.67,\"adr_incl_tax_def\":362.00,\"revpar_excl_tax_def\":286.58,\"revpar_incl_tax_def\":343.90}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-18\",\"end\":\"2017-10-18\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":74,\"occ_def\":0.9250,\"acc_revenue_excl_tax_def\":21813.36,\"acc_revenue_incl_tax_def\":26176.03,\"adr_excl_tax_def\":294.78,\"adr_incl_tax_def\":353.73,\"revpar_excl_tax_def\":272.67,\"revpar_incl_tax_def\":327.20}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-19\",\"end\":\"2017-10-19\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":61,\"occ_def\":0.7625,\"acc_revenue_excl_tax_def\":15973.41,\"acc_revenue_incl_tax_def\":19168.09,\"adr_excl_tax_def\":261.86,\"adr_incl_tax_def\":314.23,\"revpar_excl_tax_def\":199.67,\"revpar_incl_tax_def\":239.60}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-20\",\"end\":\"2017-10-20\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":50,\"occ_def\":0.6250,\"acc_revenue_excl_tax_def\":8213.99,\"acc_revenue_incl_tax_def\":9856.79,\"adr_excl_tax_def\":164.28,\"adr_incl_tax_def\":197.14,\"revpar_excl_tax_def\":102.67,\"revpar_incl_tax_def\":123.21}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-21\",\"end\":\"2017-10-21\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":63,\"occ_def\":0.7875,\"acc_revenue_excl_tax_def\":11288.50,\"acc_revenue_incl_tax_def\":13546.20,\"adr_excl_tax_def\":179.18,\"adr_incl_tax_def\":215.02,\"revpar_excl_tax_def\":141.11,\"revpar_incl_tax_def\":169.33}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-22\",\"end\":\"2017-10-22\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":55,\"occ_def\":0.6875,\"acc_revenue_excl_tax_def\":10071.11,\"acc_revenue_incl_tax_def\":12085.33,\"adr_excl_tax_def\":183.11,\"adr_incl_tax_def\":219.73,\"revpar_excl_tax_def\":125.89,\"revpar_incl_tax_def\":151.07}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-23\",\"end\":\"2017-10-23\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":60,\"occ_def\":0.7500,\"acc_revenue_excl_tax_def\":14477.08,\"acc_revenue_incl_tax_def\":17372.50,\"adr_excl_tax_def\":241.28,\"adr_incl_tax_def\":289.54,\"revpar_excl_tax_def\":180.96,\"revpar_incl_tax_def\":217.16}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-24\",\"end\":\"2017-10-24\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":60,\"occ_def\":0.7500,\"acc_revenue_excl_tax_def\":16064.54,\"acc_revenue_incl_tax_def\":19277.45,\"adr_excl_tax_def\":267.74,\"adr_incl_tax_def\":321.29,\"revpar_excl_tax_def\":200.81,\"revpar_incl_tax_def\":240.97}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-25\",\"end\":\"2017-10-25\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":61,\"occ_def\":0.7625,\"acc_revenue_excl_tax_def\":15608.60,\"acc_revenue_incl_tax_def\":18730.32,\"adr_excl_tax_def\":255.88,\"adr_incl_tax_def\":307.05,\"revpar_excl_tax_def\":195.11,\"revpar_incl_tax_def\":234.13}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-26\",\"end\":\"2017-10-26\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":59,\"occ_def\":0.7375,\"acc_revenue_excl_tax_def\":13751.44,\"acc_revenue_incl_tax_def\":16501.73,\"adr_excl_tax_def\":233.08,\"adr_incl_tax_def\":279.69,\"revpar_excl_tax_def\":171.89,\"revpar_incl_tax_def\":206.27}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-27\",\"end\":\"2017-10-27\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":54,\"occ_def\":0.6750,\"acc_revenue_excl_tax_def\":8749.97,\"acc_revenue_incl_tax_def\":10499.96,\"adr_excl_tax_def\":162.04,\"adr_incl_tax_def\":194.44,\"revpar_excl_tax_def\":109.37,\"revpar_incl_tax_def\":131.25}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-28\",\"end\":\"2017-10-28\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":60,\"occ_def\":0.7500,\"acc_revenue_excl_tax_def\":11164.70,\"acc_revenue_incl_tax_def\":13397.64,\"adr_excl_tax_def\":186.08,\"adr_incl_tax_def\":223.29,\"revpar_excl_tax_def\":139.56,\"revpar_incl_tax_def\":167.47}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-29\",\"end\":\"2017-10-29\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":47,\"occ_def\":0.5875,\"acc_revenue_excl_tax_def\":10813.35,\"acc_revenue_incl_tax_def\":12976.02,\"adr_excl_tax_def\":230.07,\"adr_incl_tax_def\":276.09,\"revpar_excl_tax_def\":135.17,\"revpar_incl_tax_def\":162.20}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-30\",\"end\":\"2017-10-30\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":58,\"occ_def\":0.7250,\"acc_revenue_excl_tax_def\":16211.17,\"acc_revenue_incl_tax_def\":19453.40,\"adr_excl_tax_def\":279.50,\"adr_incl_tax_def\":335.40,\"revpar_excl_tax_def\":202.64,\"revpar_incl_tax_def\":243.17}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-31\",\"end\":\"2017-10-31\",\"as_of_date\":\"2017-10-17\",\"available_rooms\":80,\"details\":{\"room_nights_def\":56,\"occ_def\":0.7000,\"acc_revenue_excl_tax_def\":17275.79,\"acc_revenue_incl_tax_def\":20730.95,\"adr_excl_tax_def\":308.50,\"adr_incl_tax_def\":370.20,\"revpar_excl_tax_def\":215.95,\"revpar_incl_tax_def\":259.14}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-01\",\"end\":\"2017-10-01\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":51,\"occ_def\":0.6375,\"acc_revenue_excl_tax_def\":10654.09,\"acc_revenue_incl_tax_def\":12784.91,\"adr_excl_tax_def\":208.90,\"adr_incl_tax_def\":250.68,\"revpar_excl_tax_def\":133.18,\"revpar_incl_tax_def\":159.81}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-02\",\"end\":\"2017-10-02\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":80,\"occ_def\":1.0000,\"acc_revenue_excl_tax_def\":23031.07,\"acc_revenue_incl_tax_def\":27637.28,\"adr_excl_tax_def\":287.89,\"adr_incl_tax_def\":345.47,\"revpar_excl_tax_def\":287.89,\"revpar_incl_tax_def\":345.47}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-03\",\"end\":\"2017-10-03\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":80,\"occ_def\":1.0000,\"acc_revenue_excl_tax_def\":24574.10,\"acc_revenue_incl_tax_def\":29488.92,\"adr_excl_tax_def\":307.18,\"adr_incl_tax_def\":368.61,\"revpar_excl_tax_def\":307.18,\"revpar_incl_tax_def\":368.61}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-04\",\"end\":\"2017-10-04\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":80,\"occ_def\":1.0000,\"acc_revenue_excl_tax_def\":23854.23,\"acc_revenue_incl_tax_def\":28625.08,\"adr_excl_tax_def\":298.18,\"adr_incl_tax_def\":357.81,\"revpar_excl_tax_def\":298.18,\"revpar_incl_tax_def\":357.81}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-05\",\"end\":\"2017-10-05\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":74,\"occ_def\":0.9250,\"acc_revenue_excl_tax_def\":20052.22,\"acc_revenue_incl_tax_def\":24062.66,\"adr_excl_tax_def\":270.98,\"adr_incl_tax_def\":325.17,\"revpar_excl_tax_def\":250.65,\"revpar_incl_tax_def\":300.78}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-06\",\"end\":\"2017-10-06\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":71,\"occ_def\":0.8875,\"acc_revenue_excl_tax_def\":12418.09,\"acc_revenue_incl_tax_def\":14901.71,\"adr_excl_tax_def\":174.90,\"adr_incl_tax_def\":209.88,\"revpar_excl_tax_def\":155.23,\"revpar_incl_tax_def\":186.27}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-07\",\"end\":\"2017-10-07\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":73,\"occ_def\":0.9125,\"acc_revenue_excl_tax_def\":12972.41,\"acc_revenue_incl_tax_def\":15566.89,\"adr_excl_tax_def\":177.70,\"adr_incl_tax_def\":213.25,\"revpar_excl_tax_def\":162.16,\"revpar_incl_tax_def\":194.59}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-08\",\"end\":\"2017-10-08\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":33,\"occ_def\":0.4125,\"acc_revenue_excl_tax_def\":7261.92,\"acc_revenue_incl_tax_def\":8714.30,\"adr_excl_tax_def\":220.06,\"adr_incl_tax_def\":264.07,\"revpar_excl_tax_def\":90.77,\"revpar_incl_tax_def\":108.93}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-09\",\"end\":\"2017-10-09\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":68,\"occ_def\":0.8500,\"acc_revenue_excl_tax_def\":19481.67,\"acc_revenue_incl_tax_def\":23378.00,\"adr_excl_tax_def\":286.50,\"adr_incl_tax_def\":343.79,\"revpar_excl_tax_def\":243.52,\"revpar_incl_tax_def\":292.23}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-10\",\"end\":\"2017-10-10\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":73,\"occ_def\":0.9125,\"acc_revenue_excl_tax_def\":22337.10,\"acc_revenue_incl_tax_def\":26804.52,\"adr_excl_tax_def\":305.99,\"adr_incl_tax_def\":367.19,\"revpar_excl_tax_def\":279.21,\"revpar_incl_tax_def\":335.06}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-11\",\"end\":\"2017-10-11\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":79,\"occ_def\":0.9875,\"acc_revenue_excl_tax_def\":22817.52,\"acc_revenue_incl_tax_def\":27381.02,\"adr_excl_tax_def\":288.83,\"adr_incl_tax_def\":346.60,\"revpar_excl_tax_def\":285.22,\"revpar_incl_tax_def\":342.26}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-12\",\"end\":\"2017-10-12\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":63,\"occ_def\":0.7875,\"acc_revenue_excl_tax_def\":16209.23,\"acc_revenue_incl_tax_def\":19451.08,\"adr_excl_tax_def\":257.29,\"adr_incl_tax_def\":308.75,\"revpar_excl_tax_def\":202.62,\"revpar_incl_tax_def\":243.14}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-13\",\"end\":\"2017-10-13\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":55,\"occ_def\":0.6875,\"acc_revenue_excl_tax_def\":8842.84,\"acc_revenue_incl_tax_def\":10611.41,\"adr_excl_tax_def\":160.78,\"adr_incl_tax_def\":192.93,\"revpar_excl_tax_def\":110.54,\"revpar_incl_tax_def\":132.64}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-14\",\"end\":\"2017-10-14\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":72,\"occ_def\":0.9000,\"acc_revenue_excl_tax_def\":12256.32,\"acc_revenue_incl_tax_def\":14707.58,\"adr_excl_tax_def\":170.23,\"adr_incl_tax_def\":204.27,\"revpar_excl_tax_def\":153.20,\"revpar_incl_tax_def\":183.84}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-15\",\"end\":\"2017-10-15\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":51,\"occ_def\":0.6375,\"acc_revenue_excl_tax_def\":9906.31,\"acc_revenue_incl_tax_def\":11887.57,\"adr_excl_tax_def\":194.24,\"adr_incl_tax_def\":233.09,\"revpar_excl_tax_def\":123.83,\"revpar_incl_tax_def\":148.59}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-16\",\"end\":\"2017-10-16\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":73,\"occ_def\":0.9125,\"acc_revenue_excl_tax_def\":18849.09,\"acc_revenue_incl_tax_def\":22618.91,\"adr_excl_tax_def\":258.21,\"adr_incl_tax_def\":309.85,\"revpar_excl_tax_def\":235.61,\"revpar_incl_tax_def\":282.74}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-17\",\"end\":\"2017-10-17\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":76,\"occ_def\":0.9500,\"acc_revenue_excl_tax_def\":22926.68,\"acc_revenue_incl_tax_def\":27512.02,\"adr_excl_tax_def\":301.67,\"adr_incl_tax_def\":362.00,\"revpar_excl_tax_def\":286.58,\"revpar_incl_tax_def\":343.90}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-18\",\"end\":\"2017-10-18\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":76,\"occ_def\":0.9500,\"acc_revenue_excl_tax_def\":22736.22,\"acc_revenue_incl_tax_def\":27283.46,\"adr_excl_tax_def\":299.16,\"adr_incl_tax_def\":358.99,\"revpar_excl_tax_def\":284.20,\"revpar_incl_tax_def\":341.04}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-19\",\"end\":\"2017-10-19\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":56,\"occ_def\":0.7000,\"acc_revenue_excl_tax_def\":14661.22,\"acc_revenue_incl_tax_def\":17593.46,\"adr_excl_tax_def\":261.81,\"adr_incl_tax_def\":314.17,\"revpar_excl_tax_def\":183.27,\"revpar_incl_tax_def\":219.92}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-20\",\"end\":\"2017-10-20\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":50,\"occ_def\":0.6250,\"acc_revenue_excl_tax_def\":8195.49,\"acc_revenue_incl_tax_def\":9834.59,\"adr_excl_tax_def\":163.91,\"adr_incl_tax_def\":196.69,\"revpar_excl_tax_def\":102.44,\"revpar_incl_tax_def\":122.93}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-21\",\"end\":\"2017-10-21\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":64,\"occ_def\":0.8000,\"acc_revenue_excl_tax_def\":11422.92,\"acc_revenue_incl_tax_def\":13707.50,\"adr_excl_tax_def\":178.48,\"adr_incl_tax_def\":214.18,\"revpar_excl_tax_def\":142.79,\"revpar_incl_tax_def\":171.34}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-22\",\"end\":\"2017-10-22\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":57,\"occ_def\":0.7125,\"acc_revenue_excl_tax_def\":10427.57,\"acc_revenue_incl_tax_def\":12513.08,\"adr_excl_tax_def\":182.94,\"adr_incl_tax_def\":219.53,\"revpar_excl_tax_def\":130.34,\"revpar_incl_tax_def\":156.41}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-23\",\"end\":\"2017-10-23\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":62,\"occ_def\":0.7750,\"acc_revenue_excl_tax_def\":14810.48,\"acc_revenue_incl_tax_def\":17772.58,\"adr_excl_tax_def\":238.88,\"adr_incl_tax_def\":286.65,\"revpar_excl_tax_def\":185.13,\"revpar_incl_tax_def\":222.16}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-24\",\"end\":\"2017-10-24\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":66,\"occ_def\":0.8250,\"acc_revenue_excl_tax_def\":17499.32,\"acc_revenue_incl_tax_def\":20999.18,\"adr_excl_tax_def\":265.14,\"adr_incl_tax_def\":318.17,\"revpar_excl_tax_def\":218.74,\"revpar_incl_tax_def\":262.49}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-25\",\"end\":\"2017-10-25\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":67,\"occ_def\":0.8375,\"acc_revenue_excl_tax_def\":17141.61,\"acc_revenue_incl_tax_def\":20569.93,\"adr_excl_tax_def\":255.84,\"adr_incl_tax_def\":307.01,\"revpar_excl_tax_def\":214.27,\"revpar_incl_tax_def\":257.12}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-26\",\"end\":\"2017-10-26\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":61,\"occ_def\":0.7625,\"acc_revenue_excl_tax_def\":14165.94,\"acc_revenue_incl_tax_def\":16999.13,\"adr_excl_tax_def\":232.23,\"adr_incl_tax_def\":278.67,\"revpar_excl_tax_def\":177.07,\"revpar_incl_tax_def\":212.49}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-27\",\"end\":\"2017-10-27\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":56,\"occ_def\":0.7000,\"acc_revenue_excl_tax_def\":8877.47,\"acc_revenue_incl_tax_def\":10652.96,\"adr_excl_tax_def\":158.53,\"adr_incl_tax_def\":190.23,\"revpar_excl_tax_def\":110.97,\"revpar_incl_tax_def\":133.16}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-28\",\"end\":\"2017-10-28\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":63,\"occ_def\":0.7875,\"acc_revenue_excl_tax_def\":11592.06,\"acc_revenue_incl_tax_def\":13910.47,\"adr_excl_tax_def\":184.00,\"adr_incl_tax_def\":220.80,\"revpar_excl_tax_def\":144.90,\"revpar_incl_tax_def\":173.88}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-29\",\"end\":\"2017-10-29\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":49,\"occ_def\":0.6125,\"acc_revenue_excl_tax_def\":11203.52,\"acc_revenue_incl_tax_def\":13444.22,\"adr_excl_tax_def\":228.64,\"adr_incl_tax_def\":274.37,\"revpar_excl_tax_def\":140.04,\"revpar_incl_tax_def\":168.05}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-30\",\"end\":\"2017-10-30\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":58,\"occ_def\":0.7250,\"acc_revenue_excl_tax_def\":16191.17,\"acc_revenue_incl_tax_def\":19429.40,\"adr_excl_tax_def\":279.16,\"adr_incl_tax_def\":334.99,\"revpar_excl_tax_def\":202.39,\"revpar_incl_tax_def\":242.87}},{\"property_id\":\"02c53903-bf36-4d4f-b955-4181b8880269\",\"start\":\"2017-10-31\",\"end\":\"2017-10-31\",\"as_of_date\":\"2017-10-18\",\"available_rooms\":80,\"details\":{\"room_nights_def\":56,\"occ_def\":0.7000,\"acc_revenue_excl_tax_def\":17255.79,\"acc_revenue_incl_tax_def\":20706.95,\"adr_excl_tax_def\":308.14,\"adr_incl_tax_def\":369.77,\"revpar_excl_tax_def\":215.70,\"revpar_incl_tax_def\":258.84}}]"
+						}
+					]
+				},
+				{
+					"name": "8 - Create dialog",
+					"request": {
+						"url": {
+							"raw": "{{scheme}}://{{url}}/v1/dwh/otb_pace/properties/00000000-0000-0000-0000-000000000000/base_dimension/whole_date_range/definitive?start=2017-10-01&end=2017-10-31&as_of_date_start=2017-10-17&as_of_date_end=2017-10-19",
+							"protocol": "{{scheme}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"v1",
+								"dwh",
+								"otb_pace",
+								"properties",
+								"00000000-0000-0000-0000-000000000000",
+								"base_dimension",
+								"whole_date_range",
+								"definitive"
+							],
+							"query": [
+								{
+									"key": "start",
+									"value": "2017-10-01",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "end",
+									"value": "2017-10-31",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "as_of_date_start",
+									"value": "2017-10-17",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "as_of_date_end",
+									"value": "2017-10-19",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": [
+						{
+							"id": "a6a4f635-ac36-4dc3-a504-e934b746ba8a",
 							"name": "_1_3_get otb pace in market segments for property copy",
 							"originalRequest": {
 								"url": {
